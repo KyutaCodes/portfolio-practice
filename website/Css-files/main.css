@@ -1,0 +1,575 @@
+body{
+    background-color: rgb(88, 86, 86);
+    color: white;
+}
+.header{
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 80px;
+    background-color: rgba(79, 77, 77, 0.822);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    border-color: rgb(215, 99, 86);
+    box-shadow: 0px 5px 6px rgb(215, 99, 86);
+}
+
+.left-section{
+    padding-left: 15px;
+    flex: 1 0 50px;
+    align-content: center;
+}
+
+.right-section{
+    height: auto;
+    padding-right: 15px;
+    flex: 1 10 250px;
+    text-align: end;
+    align-content: center;
+}
+
+.Logo-section{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}   
+
+.header-logo-1{
+    border-color: rgb(103, 101, 99);
+    border-width: 2px;
+    border-style: double;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgb(57, 57, 57);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+    background-image: url(/images-files/Fb-logo.svg);
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s ease-in-out;
+}
+.header-logo-2{
+    border-color: rgb(103, 101, 99);
+    border-width: 2px;
+    border-style: double;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgb(57, 57, 57);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+    background-image: url(/images-files/Insta-logo.svg);
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s ease-in-out;
+}
+.header-logo-3{
+    border-color: rgb(103, 101, 99);
+    border-width: 2px;
+    border-style: double;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgb(57, 57, 57);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+    background-image: url(/images-files/Gmail-logo.svg);
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s ease-in-out;
+}
+.header-logo-4{
+    border-color: rgb(103, 101, 99);
+    border-width: 2px;
+    border-style: double;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgb(57, 57, 57);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+    background-image: url(/images-files/tiktok-logo.svg);
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s ease-in-out;
+}
+
+.header-logo-1:hover{
+    border-color: rgb(27, 147, 187);
+    background-color: aqua;
+    box-shadow: 0px 7px 6px rgb(119, 206, 227);
+
+}
+.header-logo-2:hover{
+    border-color: rgb(27, 147, 187);
+    background-color: aqua;
+    box-shadow: 0px 7px 6px rgb(119, 206, 227);
+}
+.header-logo-3:hover{
+    border-color: rgb(27, 147, 187);
+    background-color: aqua;
+    box-shadow: 0px 7px 6px rgb(119, 206, 227);
+}
+.header-logo-4:hover{
+    border-color: rgb(27, 147, 187);
+    background-color: aqua;
+    box-shadow: 0px 7px 6px rgb(119, 206, 227);
+}
+.body-1{
+    font-family: arial;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.info-text{
+    color: white;
+}
+
+h1{
+    margin-top: 50px;
+    color: orange;
+    font-size: 50px;
+}
+h2{
+    align-self: baseline;
+    color: orange;
+}
+p{
+    font-size: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+
+
+.Pfp{
+    margin-top: 20px;
+    width: 380px;
+    height: 500px;
+    transition: all 0.5s ease-in-out;
+}
+
+.Pfp:hover{
+    transform: skew(10deg, 2deg);
+}
+.Pfp-1{
+    align-content: center;
+    text-align: center;
+    width: 400px;
+}
+.logo{
+    border-color: orangered;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50%;
+    box-shadow: 0px 15px 10px rgb(40, 41, 41);
+    width: 100%;
+    height: 450px;
+}
+
+
+.logo{
+    animation-name: logo;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+@keyframes logo{
+    0%{
+        border-color: red;
+    }
+    25%{
+        border-color: yellow;
+    }
+    50%{
+        border-color: rgb(238, 81, 133);
+    }
+    75%{
+        border-color: purple;
+    }
+    100%{
+        border-color: red;
+    }
+}
+.intro-profile{
+    border-width: 5px;
+    border-color: orangered;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Main{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.content-1{
+    border-width: 5px;
+    border-style: double;
+    border-color: orangered;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    flex: 1 0 250px;
+    align-content: top;
+    text-align: center;
+}
+.about-me-info{
+    margin: 10px;
+    
+}
+.content-2{
+    align-content: top;
+    text-align: center;
+    flex: 1 0 250px;
+}
+
+.logos{
+    background-color: rgb(39, 38, 38);
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 5px 5px gray;
+
+}
+.logos:hover{
+    background-color: rgb(225, 183, 104);
+    box-shadow: 0px 5px 5px rgb(42, 41, 41);
+}
+.skill-img{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 10px;
+    justify-content: center;
+
+}
+.skill-logo{
+    flex-shrink: 100%;
+    border-radius: 25%;
+    padding: 10px;
+    margin: 5px;
+    width: 80px;
+    height: 80px;
+}
+
+
+.hobby-title{
+    border-radius: 10px;
+    align-content:center ;
+    background-color: rgba(79, 77, 77, 0.822);
+    height: 50px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    border-color: rgb(215, 99, 86);
+    box-shadow: 0px 5px 6px rgb(215, 99, 86);
+}
+
+.content-3{
+    align-content: center;
+    text-align: center;
+    flex: 1 0 100%;
+    height: 700px;
+}
+.Hobby-section{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+.hobbies-1{
+    max-width: 400px;
+    border-color: rgb(233, 60, 60);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 4px;
+    box-shadow: 0px 10px 10px rgb(215, 99, 86);
+    margin: 10px;
+    height: 450px;
+    flex: 1 0 150px;
+    overflow-x: auto;
+    display: flex;
+    gap: 10px;
+    scroll-snap-type: y both proximity;
+    text-align: center;
+}
+
+.sec-1{
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    align-content:center;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 8px;
+    border-color: rgb(15, 131, 225);
+    box-shadow: 0px 5px 6px rgb(25, 24, 24);
+    transition: all 0.3s ease-in-out;
+
+}
+.sec-1:hover{
+    background-color: aqua;
+    border-color: rgb(77, 164, 235);
+    box-shadow: 0px 5px 6px rgb(68, 173, 234);
+    color: orangered;
+
+}
+
+.hobbies-2{
+    max-width: 400px;
+    border-color: rgb(233, 60, 60);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 4px;
+    box-shadow: 0px 10px 10px rgb(215, 99, 86);
+    margin: 10px;
+    height: 450px;
+    flex: 1 0 150px;
+    overflow-x: auto;
+    display: flex;
+    gap: 10px;
+    scroll-snap-type: y both proximity;
+    
+}
+
+.img-containter{
+    flex: 0 0 100%;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    scroll-behavior: smooth;
+    height: 100%;
+}
+.img-containter-1{
+    align-content: center;
+    flex: 0 0 100%;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    scroll-behavior: smooth;
+    height: 100%;
+    background-image: url(/images-files/AnimePortriat.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-containter-2{
+    align-content: center;
+    flex: 0 0 100%;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    scroll-behavior: smooth;
+    height: 100%;
+    background-image: url(/images-files/angelnextdoor.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.img-containter-3{
+    align-content: center;
+    flex: 0 0 100%;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    scroll-behavior: smooth;
+    height: 100%;
+    background-image: url(/images-files/demonlord.jpg);
+    background-position: center;
+    background-size: cover;
+ 
+}
+.img-containter-4{
+    align-content: center;
+    flex: 0 0 100%;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    scroll-behavior: smooth;
+    height: 100%;
+    background-image: url(/images-files/familliarzero.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.img-containter-5{
+    align-content: center;
+    flex: 0 0 100%;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    scroll-behavior: smooth;
+    height: 100%;
+    background-image: url(/images-files/Franxx.jpeg);
+    background-position: center;
+    background-size: cover;
+
+}
+.img-containter-6{
+    align-content: center;
+    flex: 0 0 100%;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    scroll-behavior: smooth;
+    height: 100%;
+    background-image: url(/images-files/Frieren.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.img-containter-7{
+    align-content: center;
+    flex: 0 0 100%;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    scroll-behavior: smooth;
+    height: 100%;
+    background-image: url(/images-files/Horimiya.jpeg);
+    background-position: center;
+    background-size: cover;
+
+}
+.img-containter-8{
+    align-content: center;
+    flex: 0 0 100%;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    scroll-behavior: smooth;
+    height: 100%;
+    background-image: url(/images-files/jobless.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.img-containter-9{
+    align-content: center;
+    flex: 0 0 100%;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    scroll-behavior: smooth;
+    height: 100%;
+    background-image: url(/images-files/Pseudo.jpeg);
+    background-position: center;
+    background-size: cover;
+  
+}
+.img-containter-10{
+    align-content: center;
+    flex: 0 0 100%;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    scroll-behavior: smooth;
+    height: 100%;
+    background-image: url(/images-files/Slime.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-containter-11{
+    align-content: center;
+    flex: 0 0 100%;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    scroll-behavior: smooth;
+    height: 100%;
+    background-image: url(/images-files/codm-portriat.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-containter-12{
+    align-content: center;
+    flex: 0 0 100%;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    scroll-behavior: smooth;
+    height: 100%;
+    background-image: url(/images-files/zzz-portrait.webp);
+    background-position: center;
+    background-size: cover;
+}
+.img-containter-13{
+    align-content: center;
+    flex: 0 0 100%;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    scroll-behavior: smooth;
+    height: 100%;
+    background-image: url(/images-files/wuwa-portrait.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-containter-14{
+    align-content: center;
+    flex: 0 0 100%;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    scroll-behavior: smooth;
+    height: 100%;
+    background-image: url(/images-files/pgr-portrait.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-containter-15{
+    align-content: center;
+    flex: 0 0 100%;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    scroll-behavior: smooth;
+    height: 100%;
+    background-image: url(/images-files/ml-portriat.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img{
+    width: 100%;
+    height: 99%;
+}
+
+
+::-webkit-scrollbar{
+    margin-bottom: 10px;
+    width: 5px;
+    background-color: rgb(187, 173, 230);
+}
+::-webkit-scrollbar-track{
+    margin-bottom: 10px;
+    background-color: rgb(72, 95, 95);
+    width: 30px;
+}
+::-webkit-scrollbar-thumb{
+    background-color:lightcyan ;
+    border-radius: 2px;
+    width: 5px;
+}
+::-webkit-scrollbar-corner{
+    border-radius: 50px;
+}
+.content-4{
+    flex: 1 0 100%;
+    background-color: lightgreen;
+    height: 200px;
+    width: 200px;
+}
+.content-5{
+    flex: 1 0 100%;
+    background-color: lightcoral;
+    height: 200px;
+    width: 200px;
+}

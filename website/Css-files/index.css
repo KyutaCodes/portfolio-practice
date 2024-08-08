@@ -1,0 +1,128 @@
+body{
+    background-color:rgb(88, 86, 86) ;
+    align-content: center;
+}
+.header{
+    background-color: rgb(68, 65, 65);
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    gap:100px;
+    width: 100%;
+    height: 250px;
+    top: 0;
+    left: 0;
+    border-style: solid;
+    border-width: 5px;
+    border-color: orange;
+    border-top: none;
+    border-left: none;
+    border-right:none
+}
+.left-section{
+    display: flex;
+    flex-grow: 1;
+    padding: 1rem;
+    align-items: center;
+}
+.link{
+    text-align: center;
+    align-content: center;
+    -webkit-mask-image: url(/images-files/Fblogo.png);
+    mask-image: url(/images-files/Fblogo.png);
+    mask-size: cover;
+    margin: 10px;
+    width: 160px;
+    height: 160px;
+}
+.header-logo{
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 50%;
+    width:120px;
+    height: 110px;
+}
+.header-logo:hover{
+    border-style: solid;
+    border-color: orange;
+    border-width: 5px;
+    box-shadow: 0px 10px 10px orangered;
+}
+.Kyuta-text{
+    display: flex;
+    width: 300px;
+    padding: 6rem;
+    align-items: center;
+}
+.Text-logo{
+    color: orange;
+    font-family: Arial;
+    font-size: 60px;
+}
+.Main{
+    padding-top: 260px;
+    display: flex;
+    justify-content: center;
+    align-content: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: lightblue;
+    width: 1080px;
+    height:100vh;
+    margin: 0 auto;
+
+}
+.Content-1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:20px;
+    width: 1000px;
+    height: 800px;
+    padding: 1rem;
+    color:white;
+}
+.image-profile{
+    border-radius: 170px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 15px 15px blue;
+}
+.profile{
+    padding: 1rem;
+    height:760px;
+    width: 400px;
+    
+}
+.profile1{
+    flex-grow: 1;
+    flex-shrink: 200px;
+    text-align: center;
+    align-content: center;
+    padding: 1rem;
+    height:760px;
+    width: 400px;
+}
+.intro-info{
+    color:orange;
+    font-size: 50px;
+    font-family: arial;
+    font-weight: bold;
+}
+.intro-p{
+    font-size: 30px;
+    font-family: arial;
+    font-weight: bold;
+}
+.Content-2{
+    width: 1000px;
+    height: 300px;
+    padding: 1rem;
+    background-color: lightcoral;
+    border-style: solid;
+    border-width: 3px;
+    border-color: red;
+    color:white;
+}
